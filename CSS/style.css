@@ -1,0 +1,29 @@
+img {
+    height: 25%;
+    width: 25%;
+}
+
+table {
+    text-align: center;
+}
+
+td{
+    width: 33%;
+}
+
+div{
+    border-top: 5px solid red;
+}
+
+#div1{
+    background-color: antiquewhite;
+}
+
+#div2{
+    background-color: aqua;
+}
+
+button {
+    width: 20%;
+    height: 50%;
+}
