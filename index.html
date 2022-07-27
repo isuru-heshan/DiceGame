@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-<body>
-    <center>
-        <h1>Dice Game</h1>
-    </center>
-    <center>
-        <h2 id="turn">Player 1</h2>
-    </center>
+    <body>
+        <center>
+            <h1>Dice Game</h1>
+        </center>
+        <center>
+            <h2>Now playing</h2>
+            <h2 id="turn">Player 1</h2>
+        </center>
 
-    <table>
-        <tr>
-            <td>
-            <div id="div1">
-                player 1 <br>
-                <h3 id="score1">Score : 0</h3>
-            </div>
-            </td>
-            <td>
-                <img src="images/dice_1.png" id="dice-img1">
-                <img src="images/dice_1.png" id="dice-img2">
-                <p id="diceVal1"></p>
-                <p id="diceVal2"></p>
-                <button onclick="rollDice()">Spin</button>
-            </td>
-            <td>
-                <div id="div2">
-                    player 2 <br>
-                    <h3 id="score2">Score : 0</h3>
-                </div>
-            </td>
-        </tr>
-    </table>
-</body>
+        <table>
+            <tr>
+                <td>
+                    <div id="div1">
+                        player 1 <br>
+                        <h3 id="score1">Score : 0</h3>
+                    </div>
+                </td>
+                <td>
+                    <div id="div2">
+                        <img src="images/dice_1.png" id="dice-img1">
+                        <img src="images/dice_1.png" id="dice-img2">
+                        <p id="diceVal1"></p>
+                        <p id="diceVal2"></p>
+                        <button id="btn1" onclick="rollDice()">Spin</button>
+                    </div>
+                </td>
+
+                <td>
+                    <div id="div3">
+                        player 2 <br>
+                        <h3 id="score2">Score : 0</h3>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+
 </html>

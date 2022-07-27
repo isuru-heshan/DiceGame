@@ -17,13 +17,36 @@ div{
 
 #div1{
     background-color: antiquewhite;
+    width: 50%;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #div2{
+    border-top: 5px solid blue;
+    padding-top: 5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#div3{
     background-color: aqua;
+    width: 50%;
+    float:left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 button {
-    width: 20%;
+    border-radius: 5%;
+    width: 40%;
     height: 50%;
+    border-radius: 5px;
+}
+
+#btn1{
+    border: 2px solid green;
+    
+}
+#btn2{
+    border: 2px solid red;
+     
 }
