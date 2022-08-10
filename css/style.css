@@ -46,6 +46,7 @@ div{
 }
 
 button {
+    min-width:52px;
     margin: 4%;
     width: 40%;
     height: 10%;
