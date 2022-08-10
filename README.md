@@ -1,2 +1,2 @@
 # DiceGame
-just simple js game
+just a simple js game
