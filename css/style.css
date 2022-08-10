@@ -17,6 +17,10 @@ div{
     border-top: 5px solid red;
 }
 
+#welcome {
+    margin-top: 30%;
+    border-bottom: 5px solid red;
+}
 #div1{
     background-color: antiquewhite;
     width: 50%;
@@ -43,6 +47,22 @@ button {
     border-radius: 5%;
     width: 40%;
     border-radius: 5px;
+}
+
+#Start{
+    width: 15%;
+    height: 50%;
+    border-radius: 5%;
+    margin: 5%;
+    border: 2px solid green;
+}
+#welcome img{
+    width: 10%;
+    height: 10%;
+}
+
+#game{
+    visibility: hidden;
 }
 
 #btn1{

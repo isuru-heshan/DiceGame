@@ -10,41 +10,52 @@
     </head>
 
     <body>
-        <center>
-            <h1>Dice Game</h1>
-            <h2>Now playing</h2>
-            <h2 id="turn">Player 1</h2>
-        </center>
-        <table>
-            <tr>
-                <td>
-                    <!-- section to display player1 stats-->
-                    <div id="div1">
-                        <p id="player1">player 1</p>
-                        <h3 id="score1">Score : 0</h3>
-                    </div>
-                </td>
-                <td>
-                    <!-- section to preview dice photos and values -->
-                    <div id="div2">
-                        <img src="./images/dice_1.png" id="dice-img1">
-                        <img src="./images/dice_1.png" id="dice-img2">
-                        <p id="diceVal1"></p>
-                        <p id="diceVal2"></p>
-                        <!-- roll Button -->
-                        <button id="btn1" onclick="rollDice()">Spin</button>
-                    </div>
-                </td>
+        <div id="welcome">
+            <center>
+                    <h1> Welcome to DiceGame </h1>
+                    <img src="./images/dice_1.png" >
+                    <img src="./images/dice_6.png" >
+                    <br>
+                    <button id="Start"> Let's Begin! </button>
+            </center>
+        </div>
+        <div id="game">
+            <center>
+                <h1>DiceGame</h1>
+                <h2>Now playing</h2>
+                <h2 id="turn">Player 1</h2>
+            </center>
+            <table>
+                <tr>
+                    <td>
+                        <!-- section to display player1 stats-->
+                        <div id="div1">
+                            <p id="player1">player 1</p>
+                            <h3 id="score1">Score : 0</h3>
+                        </div>
+                    </td>
+                    <td>
+                        <!-- section to preview dice photos and values -->
+                        <div id="div2">
+                            <img src="./images/dice_1.png" id="dice-img1">
+                            <img src="./images/dice_1.png" id="dice-img2">
+                            <p id="diceVal1"></p>
+                            <p id="diceVal2"></p>
+                            <!-- roll Button -->
+                            <button id="btn1" onclick="rollDice()">Spin</button>
+                        </div>
+                    </td>
 
-                <td>
-                    <!-- section to display player2 stats-->
-                    <div id="div3">
-                        <p id="player2">player 2</p>
-                        <h3 id="score2">Score : 0</h3>
-                    </div>
-                </td>
-            </tr>
-        </table>
+                    <td>
+                        <!-- section to display player2 stats-->
+                        <div id="div3">
+                            <p id="player2">player 2</p>
+                            <h3 id="score2">Score : 0</h3>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </body>
     <script src="./script.js"></script>
 

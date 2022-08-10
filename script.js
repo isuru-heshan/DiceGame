@@ -1,8 +1,21 @@
 let score1 = 0; /* to store the score */
 let score2 = 0;
 let flag = 1; /* to indicate who is plating*/
-let newName1; /* name of the player */
-let newName2;
+let newName1 = "Player 01"; /* name of the player */
+let newName2 = "Player 02";
+
+/* function for beginning */
+
+function beginning(){
+    let toRm = document.getElementById("welcome");
+    document.body.removeChild(toRm)
+    document.getElementById("game").style.visibility = "visible";
+    setNames();
+}
+
+let StartBtn = document.querySelector('#Start');
+StartBtn.addEventListener('click', beginning);
+
 /* get player names in the beginning */
 function setNames() {
     newName1 = prompt("Enter name for player1");
@@ -16,9 +29,6 @@ function setNames() {
         document.getElementById("player2").innerHTML = newName2;
     }
 }
-
-/* call the function */
-setNames();
 
 /* function create roll animation and then to get dice values and */
 function rollDice(i = 6) {
