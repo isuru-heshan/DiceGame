@@ -10,7 +10,7 @@ function beginning(){
     let toRm = document.getElementById("welcome");
     document.body.removeChild(toRm)
     document.getElementById("game").style.visibility = "visible";
-    setNames();
+    setTimeout(setNames, 100);
 }
 
 let StartBtn = document.querySelector('#Start');
