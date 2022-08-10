@@ -1,5 +1,6 @@
 /* Styles */
 img {
+    min-width: 60px;
     height: 25%;
     width: 25%;
 }
@@ -17,13 +18,14 @@ div{
     border-top: 5px solid red;
 }
 
+
 #welcome {
     margin-top: 10%;
     border-bottom: 5px solid red;
 }
 #div1{
     background-color: antiquewhite;
-    width: 50%;
+    padding: 5%;
     height: 100%;
     float: right;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -37,14 +39,16 @@ div{
 
 #div3{
     background-color: aqua;
-    width: 50%;
+    padding: 5%;
     height: 100%;
     float:left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 button {
+    margin: 4%;
     width: 40%;
+    height: 10%;
     border-radius: 5px;
 }
 
@@ -65,7 +69,6 @@ button {
 
 #btn1{
     border: 2px solid green;
-    
 }
 #btn2{
     border: 2px solid red;
