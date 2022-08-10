@@ -9,6 +9,7 @@ table {
 
 td{
     width: 33%;
+    height:100%;
 }
 
 div{
@@ -18,6 +19,7 @@ div{
 #div1{
     background-color: antiquewhite;
     width: 50%;
+    height: 100%;
     float: right;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -31,6 +33,7 @@ div{
 #div3{
     background-color: aqua;
     width: 50%;
+    height: 100%;
     float:left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -38,7 +41,6 @@ div{
 button {
     border-radius: 5%;
     width: 40%;
-    height: 50%;
     border-radius: 5px;
 }
 

@@ -5,46 +5,47 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <script src="script.js"></script>
-        <link rel="stylesheet" href="css/style.css">
+        <title>Dice Game</title>
+        <link rel="stylesheet" href="./css/style.css">
     </head>
 
     <body>
         <center>
             <h1>Dice Game</h1>
-        </center>
-        <center>
             <h2>Now playing</h2>
             <h2 id="turn">Player 1</h2>
         </center>
-
         <table>
             <tr>
                 <td>
+                    <!-- section to display player1 stats-->
                     <div id="div1">
-                        player 1 <br>
+                        <p id="player1">player 1</p>
                         <h3 id="score1">Score : 0</h3>
                     </div>
                 </td>
                 <td>
+                    <!-- section to preview dice photos and values -->
                     <div id="div2">
-                        <img src="images/dice_1.png" id="dice-img1">
-                        <img src="images/dice_1.png" id="dice-img2">
+                        <img src="./images/dice_1.png" id="dice-img1">
+                        <img src="./images/dice_1.png" id="dice-img2">
                         <p id="diceVal1"></p>
                         <p id="diceVal2"></p>
+                        <!-- roll Button -->
                         <button id="btn1" onclick="rollDice()">Spin</button>
                     </div>
                 </td>
 
                 <td>
+                    <!-- section to display player2 stats-->
                     <div id="div3">
-                        player 2 <br>
+                        <p id="player2">player 2</p>
                         <h3 id="score2">Score : 0</h3>
                     </div>
                 </td>
             </tr>
         </table>
     </body>
+    <script src="./script.js"></script>
 
 </html>
